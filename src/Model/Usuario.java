@@ -8,7 +8,8 @@ public class Usuario extends Pessoa{
     private String senha;
     private String nivelAcesso;
 
-    public Usuario(String senha, String nivelAcesso, int id, String nome, char sexo, String dataNascimento, String telefone, String email, String rg) throws ParseException {
+    public Usuario( int id, String nome,char sexo,String dataNascimento,String telefone,  
+             String email, String rg, String senha,String nivelAcesso) throws ParseException {
         super(id, nome, sexo, dataNascimento, telefone, email, rg);
         this.senha = senha;
         this.nivelAcesso = nivelAcesso;
